@@ -1,0 +1,304 @@
+body, html {
+    background-color: #181311;
+    width: 100vw;
+    overflow-x: hidden; 
+     max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*GENERAL CLASSES*/
+.gradientText {
+    background-image: linear-gradient(to right, #e26763, #8a68e9, #56a1ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.paragraph {
+    color: #AC9E91;
+    font-size: 1.3rem;
+}
+
+.paragraph1 {
+    color: #AC9E91;
+    font-size: 1rem;
+}
+
+.title1 {
+    color: #fff;
+    font-size: 4rem;
+}
+
+.title2 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.title3 {
+    color: #fff;
+    font-size: 1.7rem;
+    margin-bottom: 0.5em;
+}
+
+/*WATERMARK*/
+#watermark {
+    height: 5rem;
+    filter: opacity(30%);
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+
+/*INTRODUCTION*/
+#introduction {
+    height: 100%;
+    width: 100%;
+}
+
+#imagePart {
+    height: 30em;
+    margin: 4em 0 4em 0;
+    display: flex;
+    justify-content: center;
+}
+
+#imagePart img {
+    width: 70em;
+    border-radius: 1em;
+    -webkit-box-shadow: 0em 0em 5em 1em #ff693322;
+    box-shadow: 0em 0em 5em 1em #d7cfcc22;
+}
+
+#textPart {
+    height: 35em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 0.4fr 0.8fr 0.4fr;
+    align-items: center;
+    margin-left: 1em;
+}
+
+#joinButton {
+    background-color: #ff6933;
+    -webkit-box-shadow: 0em 0em 1.5em 0.5em #ff69339b;
+    box-shadow: 0em 0em 1.5em 0.5em #ff693339;
+    height: 3em;
+    width: 16em;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0 1em 0 1em;
+    font-size: 1em;
+}
+
+#moreButton {
+    background-color: #181311;
+    height: 3em;
+    width: 12em;
+    border-radius: 10px;
+    border: solid 0.1em #342B26;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+}
+
+#textPart div {
+    height: 3.1em;
+    width: 40em;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+#joinButton:hover {
+    cursor: pointer;
+    background-color: #FF8F66;
+}
+
+#moreButton:hover {
+    cursor: pointer;
+    background-color: #342B26;
+}
+
+/*Why chose ATdO*/
+#whyATdO {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+#cards {
+    width: 100%;
+    height: 50em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 3em;
+    place-items: center;
+    margin-top: 1em;
+}
+
+.cards {
+    padding: 2em;
+    width: 60%;
+    background-color: #29211B;
+    border-radius: 1em;
+}
+
+.cards:hover {
+    -webkit-box-shadow: 0em 0em 1.5em 0.5em #ff69339b;
+    box-shadow: 0em 0em 1.7em 0.7em #ff693339;
+}
+
+.cards img {
+    height: 3.5em;
+    padding: 0.5em;
+    border-radius: 0.7em;
+    margin: 0 0 1em 0;
+}
+
+.orangeImg {
+    background-color: #ff69331c;
+}
+
+.purpleImg {
+    background-color: #8f63e91c;
+}
+
+.blueImg {
+    background-color: #42b6f01c;
+}
+
+/*STATISTICS*/
+#statistics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 12rem;
+    gap: 5em;
+    margin: 5em 0 5em 0;
+    background-color: #191412;
+}
+
+#statistics div {
+    height: 12em;
+    width: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/*FINAL*/
+#final {
+    height: 20em;
+    width: 100%;
+    background-image: linear-gradient(to right,#e26763, #8a68e9, #56a1ee);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#final p {
+    color: #ECD6DB;
+    font-size: 1.3rem;
+    margin-bottom: 1em;
+}
+
+#final div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1em;
+    width: 100%;
+    height: 4em;
+}
+
+#createAccount {
+    height: 3em;
+    width: 14em;
+    color: white;
+    border-radius: 1em;
+    border: none;
+    background-color: #7a2d2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 1em;
+}
+
+#createAccount:hover {
+    cursor: pointer;
+    background-color: #b35856;
+}
+
+#noLoggin {
+    height: 3em;
+    width: 10em;
+    color: white;
+    border-radius: 1em;
+    border: none;
+    background-color: #424d7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+}
+
+#noLoggin:hover {
+    cursor: pointer;
+    background-color: #a68fd5;
+}
+
+/*FOOTER*/
+footer {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#left {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5em;
+    padding-left: 1em;
+}
+
+#right {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 1em;
+    padding-right: 1em;
+}
+
+#left img {
+    height: 3em;
+}

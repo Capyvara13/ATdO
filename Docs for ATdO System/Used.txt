@@ -1,0 +1,9 @@
+IntelliJ - Programing
+Visual Studio Code - Programing
+XAMPP - SQL Conection
+MySql - Data base
+Postman - API test
+Fire Fox - Test
+
+Gemini -  Codding, studding etc
+Lovable.dev - Design for web
